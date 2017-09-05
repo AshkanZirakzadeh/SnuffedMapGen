@@ -27,5 +27,5 @@ class tile:
         self.faction=fact
     def setDefault(self):
         self.default=False
-    def isDefault(self):
-        return self.default
+    def getFaction(self):
+        return self.faction
